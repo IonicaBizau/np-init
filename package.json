@@ -1,0 +1,39 @@
+{
+  "name": "np-init",
+  "version": "1.0.0",
+  "description": "Start a npm package from scratch.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/np-init.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "init"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/np-init/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/np-init#readme",
+  "dependencies": {
+    "abs": "^1.2.1",
+    "array-unique": "^0.2.1",
+    "async-require": "^1.2.2",
+    "fullname": "^3.0.0",
+    "gry": "^5.0.0",
+    "one-by-one": "^3.1.0",
+    "package-json-path": "^1.0.0",
+    "packy": "^1.0.0",
+    "r-json": "^1.2.1",
+    "require-async": "0.0.4",
+    "streamp": "^2.2.1",
+    "w-package-json": "^1.0.0",
+    "worder": "^1.0.1"
+  }
+}
