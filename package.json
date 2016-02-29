@@ -24,15 +24,16 @@
   "dependencies": {
     "abs": "^1.2.1",
     "array-unique": "^0.2.1",
-    "async-require": "^1.2.2",
+    "find-value": "^1.0.1",
     "fullname": "^3.0.0",
     "gry": "^5.0.0",
+    "js-templates": "^1.0.1",
     "one-by-one": "^3.1.0",
     "package-json-path": "^1.0.0",
     "packy": "^1.0.0",
     "r-json": "^1.2.1",
-    "require-async": "0.0.4",
     "streamp": "^2.2.1",
+    "ul": "^5.2.1",
     "w-package-json": "^1.0.0",
     "worder": "^1.0.1"
   }
