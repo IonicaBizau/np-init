@@ -1,7 +1,7 @@
 {
   "name": "np-init",
   "version": "1.0.0",
-  "description": "Start a npm package from scratch.",
+  "description": "Easily start a npm package from scratch.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
