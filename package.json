@@ -36,5 +36,8 @@
     "ul": "^5.2.1",
     "w-package-json": "^1.0.0",
     "worder": "^1.0.1"
+  },
+  "blah": {
+    "cli": "np-init-cli"
   }
 }
