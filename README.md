@@ -1,6 +1,6 @@
 # np-init [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/np-init.svg)](https://www.npmjs.com/package/np-init) [![Downloads](https://img.shields.io/npm/dt/np-init.svg)](https://www.npmjs.com/package/np-init) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-> Start a npm package from scratch.
+> Easily start a npm package from scratch.
 
 ## :cloud: Installation
     
@@ -21,10 +21,18 @@ const init = require("np-init");
 init({
     name: "foo"
   , description: "This is a test package"
-  , dirname: __dirname
+  , dirname: `${__dirname}/result`
 }, (err, data) => {
     console.log(err || data);
 });
+// $ tree result
+// result/
+// ├── example
+// │   └── index.js
+// ├── lib
+// │   └── index.js
+// └── package.json
+// 2 directories, 3 files
 ```
     
 ## :memo: Documentation
