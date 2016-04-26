@@ -1,19 +1,20 @@
+
 # np-init [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/np-init.svg)](https://www.npmjs.com/package/np-init) [![Downloads](https://img.shields.io/npm/dt/np-init.svg)](https://www.npmjs.com/package/np-init) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Easily start a npm package from scratch.
 
 ## :cloud: Installation
-    
+
 ```sh
 $ npm i --save np-init
 ```
 
-            
+
 :bulb: **ProTip**: You can install the [cli version of this module](http://github.com/IonicaBizau/np-init-cli) by running `npm i -g np-init-cli`
-            
+
 ## :clipboard: Example
 
-        
+
 
 ```js
 const init = require("np-init");
@@ -34,9 +35,10 @@ init({
 // └── package.json
 // 2 directories, 3 files
 ```
-    
+
 ## :memo: Documentation
-        
+
+
 ### `init(options, callback)`
 Inits a new `npm` package.
 
@@ -62,14 +64,21 @@ Inits a new `npm` package.
  - `git_commit` (data): After `git commit ...` was executed.
  - `git_remote_add` (data): After `git remote add ...` was executed.
 
-        
+
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`np-init-cli`](https://github.com/IonicaBizau/np-init-cli#readme)—CLI for starting a new npm package.
+
 ## :scroll: License
-    
+
 [MIT][license] © [Ionică Bizău][website]
-    
+
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
