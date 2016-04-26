@@ -1,6 +1,6 @@
 {
   "name": "np-init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily start a npm package from scratch.",
   "main": "lib/index.js",
   "scripts": {
@@ -38,6 +38,17 @@
     "worder": "^1.0.1"
   },
   "blah": {
-      "cli": "np-init-cli"
-  }
+    "cli": "np-init-cli"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
