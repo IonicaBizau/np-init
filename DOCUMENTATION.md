@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Inits a new `npm` package.
 
 #### Params
+
 - **Object** `options`: An object containing the following fields:
  - `name` (String): The package name. This is **required**.
  - `template` (String): The template name to be used (check out
